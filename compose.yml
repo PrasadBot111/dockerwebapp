@@ -9,6 +9,6 @@ services:
  application:
    image: prasadrao1122/mynewrepo:appimage
    ports:
-     - "1234:8080"
+     - "1122:8080"
    depends_on:
      - "devopsdb"
